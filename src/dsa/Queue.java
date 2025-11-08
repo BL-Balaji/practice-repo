@@ -37,13 +37,7 @@ public class Queue {
             System.out.println("Front Element: " + queue[front]);
         }
     }
-    void peek() {
-        if (size == 0) {
-            System.out.println("Queue is Empty!");
-        } else {
-            System.out.println("Front Element: " + queue[front]);
-        }
-    }
+
 
     // Main method to test queue
     public static void main(String[] args) {
